@@ -1,0 +1,29 @@
+
+.navbar{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+background: #020024;
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+.navbar-toggler-icon {
+  color: black;
+  
+}
+.navbar-brand{
+   font-weight: bolder;
+    font-size: larger;
+    color: wheat !important;
+}
+.navbar-brand:hover{
+    color: orange !important;
+}
+
+
+.nav-link {
+  font-weight: bolder;
+  font-size: larger;
+  color: wheat !important;
+}
+
+.nav-link:hover {
+  color: orange !important; 
+}
