@@ -17,7 +17,7 @@ export default function Contact() {
  const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    const response = await fetch('https://your-app-name.onrender.com/api/contact', {
+    const response = await fetch('https://alpesh-portfolio.onrender.com/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
