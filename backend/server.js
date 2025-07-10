@@ -7,6 +7,11 @@ const app= express()
 app.use(express.json())
 app.use(cors());
 
+
+app.get('/',(req,res)=>{
+  res.send("backend is working!")
+})
+
 app.post('/api/contact', async (req, res) => {
   const { name, email, message } = req.body;
 
