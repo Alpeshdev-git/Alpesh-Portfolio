@@ -33,7 +33,7 @@ export default function About() {
                                 <li>🎓 Open to Internships and full time opportunities</li>
                                 </ul>
 
-                                <a href="/Alpesh-Resume.pdf" target="_blank" className="btn btn-primary mb-3">
+                                <a href="/Alpesh Resume.pdf" target="_blank" className="btn btn-primary mb-3">
                                 Download Resume
                                 </a>
 
