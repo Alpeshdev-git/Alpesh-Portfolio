@@ -26,6 +26,7 @@ export default function Contact() {
     });
 
     if (response.ok) {
+      setFormData({ name: '', email: '', message: '' })
       alert('Message sent!');
     } else {
       alert('Error sending message.');
